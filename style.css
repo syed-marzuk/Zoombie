@@ -5,10 +5,10 @@
 .content:hover{
     position: relative;
     color: white !important;
-    background-color: rgb(172, 255, 47);
-    border-radius:4px ;
-    transition: 0.0001s ease-in-out;
-    transition-delay:0.3333s ;
+    background-color: rgba(128, 128, 128, 0.434);
+    border-radius:3px ;
+    transition: 0.0001s ease-out;
+    transition-delay:0.2333s ;
   
 }
 
@@ -17,13 +17,13 @@
     border-radius: 4px;
     height: 35px;
     width: 37px;
-    background-color: greenyellow;
+    background-color: #fc0a0a;
     color: black;
 }
 .btnn:hover{
     color: #ffffff;
     background-color:black;
-    transition: 0.3s linear;
+    transition: 0.2s linear;
     border:5px solid rgba(0, 0, 0, 0) !important;
 }
 .marj{
@@ -43,21 +43,21 @@
     color: black;
 }
 .text-hov:hover{
-    color:greenyellow ;
+    color:#fc0a0a ;
 }
 .offw{
     width: 100%; 
 }
 
 .zcol{
-    color:greenyellow;
+    color:blue;
     text-decoration:none ;
 }
 .zcol:hover{
     color: red;
 }
 
-.zacol{
+.zacol{ 
     
 }
  /* .offcd{
@@ -96,7 +96,7 @@
     width: 0;
     color:#ffffff ;
     -webkit-text-stroke: 0.3vm #383d52;
-    border-right: 2px solid greenyellow;
+    border-right: 2px solid #fc0a0a;
     overflow: hidden;
     animation: animate 6s linear infinite;
   }
@@ -134,7 +134,7 @@
 }
 .loader:before, .loader:after{
     content: '';
-    border: 1em solid greenyellow;
+    border: 1em solid #fc0a0a;
     border-radius: 50%;
     width: 200px;
     height: 200px;
