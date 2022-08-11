@@ -5,7 +5,7 @@
 .content:hover{
     position: relative;
     color: white !important;
-    background-color: rgba(128, 128, 128, 0.469);
+    background-color: rgb(172, 255, 47);
     border-radius:4px ;
     transition: 0.0001s ease-in-out;
     transition-delay:0.3333s ;
@@ -17,7 +17,7 @@
     border-radius: 4px;
     height: 35px;
     width: 37px;
-    background-color: red;
+    background-color: greenyellow;
     color: black;
 }
 .btnn:hover{
@@ -43,18 +43,22 @@
     color: black;
 }
 .text-hov:hover{
-    color:green ;
+    color:greenyellow ;
 }
 .offw{
     width: 100%; 
 }
 
 .zcol{
-    color:skyblue;
+    color:greenyellow;
     text-decoration:none ;
 }
 .zcol:hover{
     color: red;
+}
+
+.zacol{
+    
 }
  /* .offcd{
      background-color: black !important; 
@@ -69,19 +73,11 @@
        
 }
 
-body{
-    display: fex;
-    justify-content: center !important;
-    align-items: center !important;
-   
-    /* margin-left: 450px; */
-     
+.h12{
     font-family: 'Reggae One', cursive;
     font-size: 50px;
-  
-  }
-
-  
+    margin-top: 70px;
+}
 
 
 .Zoombie-animate {
@@ -100,7 +96,7 @@ body{
     width: 0;
     color:#ffffff ;
     -webkit-text-stroke: 0.3vm #383d52;
-    border-right: 2px solid red;
+    border-right: 2px solid greenyellow;
     overflow: hidden;
     animation: animate 6s linear infinite;
   }
@@ -138,7 +134,7 @@ body{
 }
 .loader:before, .loader:after{
     content: '';
-    border: 1em solid red;
+    border: 1em solid greenyellow;
     border-radius: 50%;
     width: 200px;
     height: 200px;
